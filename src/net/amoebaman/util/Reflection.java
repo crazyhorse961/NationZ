@@ -12,14 +12,12 @@ import org.bukkit.Bukkit;
  * A class containing static utility methods and caches which are intended as reflective conveniences.
  * Unless otherwise noted, upon failure methods will return {@code null}.
  */
-public final class Reflection {
+public class Reflection {
 
 	private static String _versionString;
 	
-	private Reflection(){
+	private Reflection(){ }
 		
-	}
-	
 	/**
 	 * Gets the version string from the package name of the CraftBukkit server implementation.
 	 * This is needed to bypass the JAR package name changing on each update.
